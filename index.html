@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohsin Manzoor - Front-End Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div class="splash-screen">
+        <div class="loading-bar"></div>
+        <div class="loading-counter">0</div>
+    </div>
+
+    <!-- Theme Switcher -->
+    <button class="theme-switch" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+    </button>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1 class="hero-title">Hi, I'm <span>Mohsin Manzoor</span></h1>
+            <p class="hero-tagline">Front-End Developer crafting modern and responsive web applications.</p>
+            <div class="hero-buttons">
+                <a href="assets/Mohsin Manzoor.pdf" class="btn">Download Resume</a>
+            </div>
+            <!-- Social Links -->
+            <div class="social-links">
+                <a href="https://github.com/Mohsin278" class="social-link" aria-label="GitHub" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mohsin-manzoor-a1a03a312/" class="social-link" aria-label="LinkedIn" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://instagram.com/yourusername" class="social-link" aria-label="Instagram" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Add this right after the body tag -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="current-time" id="current-time">00:00:00</div>
+            <a href="mailto:mohsinmanzoor278@gmail.com" class="contact-btn">
+                Get in touch 
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.6667 4L8.00004 8.66667L1.33337 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M2 4H14V12C14 12.1768 13.9298 12.3464 13.8047 12.4714C13.6797 12.5964 13.5101 12.6667 13.3333 12.6667H2.66667C2.48986 12.6667 2.32029 12.5964 2.19526 12.4714C2.07024 12.3464 2 12.1768 2 12V4Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Detail-oriented Front-End Developer with a strong foundation in HTML, CSS, and JavaScript. Experienced in developing and maintaining responsive web applications and optimizing user experiences. Committed to continuous learning and leveraging technology to deliver innovative solutions.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-year">2017 - 2022</div>
+                    <h3>Bachelor of Technology in Computer Science and Engineering</h3>
+                    <p class="education-school">Baba Ghulam Shah Badshah University Rajouri</p>
+                    <p class="education-grade">Grade: A</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-year">2015 - 2016</div>
+                    <h3>Higher Secondary School (12th)</h3>
+                    <p class="education-school">Government Boys Higher Secondary School Pulwama</p>
+                    <p class="education-grade">Grade: A</p>
+                </div>
+                <div class="education-card">
+                    <div class="education-year">2014</div>
+                    <h3>Secondary School (10th)</h3>
+                    <p class="education-school">Shining Star Public High School Keegam</p>
+                    <p class="education-grade">Grade: A</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Git & GitHub</li>
+                <li>Tally Prime Basics</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Expense Tracker</h3>
+                <p>A Personal Finance Tracker with functionalities to add, delete, and categorize income and expenses. Designed a user-friendly interface with real-time updates.</p>
+                <a href="https://expensetracker714.netlify.app/" target="_blank" class="btn">View Live</a>
+            </div>
+            <div class="project">
+                <h3>Pong Game</h3>
+                <p>A classic Pong game with paddle movement, ball collision detection, and score tracking, implemented using HTML, CSS, and JavaScript.</p>
+                <a href="https://relaxed-bubblegum-9cc304.netlify.app/" target="_blank" class="btn">View Live</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-text">
+                    <h2>Contact</h2>
+                    <div class="contact-links">
+                        <a href="mailto:mohsinmanzoor278@gmail.com" class="contact-link">
+                            <span class="link-label">Email</span>
+                            <span class="link-text">mohsinmanzoor278@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohsin-manzoor-a1a03a312/" class="contact-link" target="_blank">
+                            <span class="link-label">LinkedIn</span>
+                            <span class="link-text">Mohsin Manzoor</span>
+                        </a>
+                        <a href="https://github.com/Mohsin278" class="contact-link" target="_blank">
+                            <span class="link-label">GitHub</span>
+                            <span class="link-text">Mohsin278</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <div class="footer-name">Mohsin Manzoor</div>
+                <div class="footer-year">2025</div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/Mohsin278" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/mohsin-manzoor-a1a03a312/" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:mohsinmanzoor278@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("SCrb79CLJeIBVfkMh");
+        })();
+    </script>
+</body>
+</html>
